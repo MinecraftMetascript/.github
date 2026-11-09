@@ -33,7 +33,7 @@ LootTable chests/gems {
 
 Recipe gem_block = Shaped(["GG", "GG"], { G = #gems }, emerald_block)
 
-Objective found = dummy
+Objective found: dummy
 
 Function find {
   found[@s] += 1
@@ -49,13 +49,12 @@ Function find {
 | | |
 | --- | --- |
 | 🌐 **Web editor** | [minecraftmetascript.github.io/mms](https://minecraftmetascript.github.io/mms/). Nothing to install. Live 2D and 3D terrain previews, examples to start from, and **Download pack** for a ready zip. |
-| 📖 **Docs** | [Getting started](https://minecraftmetascript.github.io/mms/docs), a [custom dimension tutorial](https://github.com/MinecraftMetascript/mms/blob/main/docs/tutorial-dimension.md), and a reference for every kind and helper. |
+| 📖 **Docs** | [Getting started](https://minecraftmetascript.github.io/mms/docs), a [custom dimension tutorial](https://minecraftmetascript.github.io/mms/docs/start/tutorial-dimension), and a reference for every kind and helper. |
 | ⌨️ **Command line** | `mms` for Linux, macOS and Windows from the [latest release](https://github.com/MinecraftMetascript/mms/releases/latest), or `go install github.com/minecraftmetascript/mms/engine/cmd/mms@latest`. `mms build -world <save>` installs straight into a world. |
 | 🧩 **VS Code** | The `.vsix` on the [latest release](https://github.com/MinecraftMetascript/mms/releases/latest): completion, hover docs, quick fixes, formatting and terrain previews. |
-| ⚡ **Zed** | [`editors/zed`](https://github.com/MinecraftMetascript/mms/tree/main/editors/zed#readme), with tree-sitter highlighting and the same language server. |
 
 Already have a data pack? `mms import pack.zip my_project` turns it into MMS.
 
 ### Contributing
 
-Everything lives in [MinecraftMetascript/mms](https://github.com/MinecraftMetascript/mms): the Go compiler and language server, the web editor, the editor extensions and the docs. Bug reports, especially packs that fail to load in game, are very welcome in [issues](https://github.com/MinecraftMetascript/mms/issues).
+Everything lives in [MinecraftMetascript/mms](https://github.com/MinecraftMetascript/mms): the Go compiler and language server, the web editor, the VS Code extension and the docs. Bug reports, especially packs that fail to load in game, are very welcome in [issues](https://github.com/MinecraftMetascript/mms/issues).
